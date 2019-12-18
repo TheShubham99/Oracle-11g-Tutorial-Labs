@@ -1,0 +1,27 @@
+-- Oracle_100_Lab 14 (Exercises with Answers)_Views
+--
+/*
+1. Create view called SALES_MOBILE that captures below columns and where product category is equal to Mobile.
+* SALES_DATE (Source: SALES table)
+* ORDER_ID (Source: SALES table)
+* QUANTITY (Source: SALES table)
+* UNIT_PRICE (Source: SALES table)
+* TOTAL_AMOUNT (Source: SALES table)
+* PRODUCT_NAME (Source: PRODUCT table)
+* PRODUCT_CATEGORY (Source: PRODUCT table)
+*/
+CREATE VIEW SALES_MOBILE 
+AS SELECT S.SALES_DATE, S.ORDER_ID, S.QUANTITY, S.UNIT_PRICE, S.TOTAL_AMOUNT, P.PRODUCT_NAME,P.PRODUCT_CATEGORY 
+FROM SALES S,PRODUCT P;
+
+
+--2. Add a new column PRODUCT_ID to the SALES_MOBILE view.
+
+CREATE OR REPLACE VIEW SALES_MOBILE
+AS SELECT S.SALES_DATE, S.ORDER_ID, S.QUANTITY, S.UNIT_PRICE, S.TOTAL_AMOUNT, P.PRODUCT_NAME,P.PRODUCT_CATEGORY, S.PRODUCT_ID 
+FROM SALES S,PRODUCT P;
+
+
+
+--3. Go ahead and delete the SALES_MOBILE view.
+DROP VIEW SALES_MOBILE;
