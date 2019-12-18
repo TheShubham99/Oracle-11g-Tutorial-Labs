@@ -120,6 +120,7 @@ After this command, you will see Oracle Database 11g Enterprise is connected. No
 
 That's it. I hope you have found this article helpful. Do let me know via comments and likes.
 
+## Prepared by : Prathamesh Sahasrabhojane
 
 # Practice Exercises
 # You can give a shot at these practice exercises and send me the answers so that I can review them for you!!!
@@ -132,22 +133,18 @@ more than 1000
 ## 6) Find the product name of the products that have 7 in their product names
 ## 7) Display the number of products in the database by product category
 ## 8) Display the number of products in the database by product category and are more than 2
-## 9) Display all the products in the database that not have been sold yet. (HINT: this means the product id is not in the SALES
-table)
+## 9) Display all the products in the database that not have been sold yet. (HINT: this means the product id is not in the SALES table)
 ## 10) Display all the data about sales persons who joined in the month of January
-## 11) Display SALES DATE, ORDER ID, sales amount, tax amount percentage of all SALES (HINT: tax amount percentage formula is
-(tax amount / sales amount ) / 100 ))
+## 11) Display SALES DATE, ORDER ID, sales amount, tax amount percentage of all SALES (HINT: tax amount percentage formula is (tax amount / sales amount ) / 100 ))
 ## 12) find the SALES DATE and ORDER ID which has the largest sales amount
 ## 13) Find the SALES DATE, ORDER ID, and sales amount of all SALES which happened in the month of January 2015
 ## 14) Display the number of products we have in the database by their color
 ## 15) Display the product data whose color is either BLACK or GREY and product size is 6
-## 16) Write a function which displays the second and third character of a given word. (Example: It should return 'OH' when I
-give 'JOHN' as the input)
+## 16) Write a function which displays the second and third character of a given word. (Example: It should return 'OH' when I give 'JOHN' as the input)
 ## 17) Display the product names in UPPER case letters
 ## 18) Display the product names which are already in UPPER case in the database
 ## 19) Display the customer data who have 'DRIVE' in their address
 ## 20) Update customer data address line 2 column, with the same values as address line 1
-## 21) Display the total number of records in all the tables CUSTOMER, PRODUCT, SALES, SALES_HISTORY, SALESPERSON (Output should
-be 22)
+## 21) Display the total number of records in all the tables CUSTOMER, PRODUCT, SALES, SALES_HISTORY, SALESPERSON (Output should be 22)
 ## 22) Display the data which is common between sales table and sales history table
 
