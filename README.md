@@ -123,10 +123,8 @@ That's it. I hope you have found this article helpful. Do let me know via commen
 ## Prepared by : Prathamesh Sahasrabhojane
 
 # Practice Exercises
-# You can give a shot at these practice exercises and send me the answers so that I can review them for you!!!
 ## 1) Find the SALES DATE, ORDER ID, and sales amount of all SALES which are coming from 'SOUTH' region
-## 2) Find the SALES DATE, ORDER ID, and sales amount of all SALES which are coming from 'SOUTH' region and sales amount is
-more than 1000
+## 2) Find the SALES DATE, ORDER ID, and sales amount of all SALES which are coming from 'SOUTH' region and sales amount is more than 1000
 ## 3) Find the names of all customers in the database who live in Atlanta area
 ## 4) Find the number of customers in the database by the month they joined
 ## 5) Display the first name, middle name and last name of all the customers in 1 column separated by space
